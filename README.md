@@ -65,7 +65,7 @@ newDiv.style.height = "20px";
   * Remember to include the space before className!
 
 ### Part IV
-1. We now need to place this div on the document. To do so, we will need to append (attach), this div to our container div as so.
+1. Place this div on the document for us to see. To do so, we will need to append (attach), this div to our container div as so.
 ```javascript
 containerDiv.appendChild(newDiv);
 ```
