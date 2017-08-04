@@ -3,7 +3,7 @@
 Awaken the fireflies!
 
 ## Objective
-Use **JavaScript Logic** to change CSS, track mouse coordinates with **Mouse Event Client X & Client Y Properties**, and create dynamic visuals with **CSS Keyframe Animations**. Introduction of *setTimeout* and *removeChild*.
+Use **JavaScript Logic** to change CSS, track mouse coordinates with **Mouse Event Client X & Client Y Properties**, and create dynamic visuals with **CSS Keyframe Animations**. Introduction of *setInterval* and *removeChild*.
 
 ## Prerequisites
 To complete this project, students should have the following:
@@ -26,7 +26,7 @@ To complete Part I, fulfill the following requirements:
 ### Part II
 1. Setup variables in your JS file to store the container div and the text header.
 2. Add an Event Listener to the ```document``` itself. This will listen for when the user moves their mouse.
-  * When the mouse is moved, we will track .
+  * When the mouse is moved, we will track the mouse coordinates.
     * The x and y coordinates of the mouse can be obtained as follows:
     ```javascript
     let x = event.clientX;
