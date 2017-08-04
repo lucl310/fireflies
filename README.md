@@ -42,6 +42,7 @@ To complete Part I, fulfill the following requirements:
   let interval = setInterval(myFunction, 3000);
   ```
   * Create a setInterval method that takes in a function called ```create``` and runs it every 100 milliseconds.
+    * Do not pass in ```create()``` with a parenthesis. The parenthesis will mean that we want our create function to run right away. Instead, we want to assign the create function to our setInterval method so that it is executed every so many milliseconds.
 
 ### Part III
 1. We now need to create the function that will make our fireflies appear.
@@ -79,5 +80,5 @@ containerDiv.appendChild(newDiv);
 
 ### Stretch Goals
 1. Randomize the height and width of the newly created Div so that every so many milliseconds, a different sized firefly appears.
-2. Make it so that the fireflies appear at the coordinates of your mouse!
+2. Change the ```left``` and ```top``` properties of the div so that the fireflies appear at the coordinates of your mouse!
 3. Create an array that will take in each div as it appears. Create an if statement that will remove the first div in the array if the length of the array is greater than 10.  
