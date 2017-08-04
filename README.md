@@ -2,6 +2,8 @@
 
 Awaken the fireflies!
 
+![Fireflies](https://github.com/junior-devleague/fireflies/blob/master/fireflies.gif)
+
 ## Objective
 Use **JavaScript Logic** to change CSS, track mouse coordinates with **Mouse Event Client X & Client Y Properties**, and create dynamic visuals with **CSS Keyframe Animations**. Introduction of *setInterval* and *removeChild*.
 
