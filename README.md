@@ -73,7 +73,7 @@ containerDiv.appendChild(newDiv);
 ### Part V
 1. Now, let's go into our CSS file to make the animations happen!
 2. Style the div with class of container so that it has the full height and width of the entire screen.
-3. Create a ```CSS Keyframe``` animation that changes **from** ```opacity = 1 ``` **to** another background color, ```top = 0px``` and ```opacity = 0```.
+3. Create a ```CSS Keyframe``` animation that changes **from** ```opacity = 1 ``` **to** another ```background-color```, ```top = 0px``` and ```opacity = 0```.
 4. In your CSS, create a class selector for the className that you assigned to the newly created div in your ```create``` function.
   * Set the following properties and values according to the name of your keyframe animation and how long you would like this to last: ```animation-name```, ```animation-duration```, and ```opacity = 0```.
 5. View this in your browser to see the fireflies awaken!
@@ -81,4 +81,4 @@ containerDiv.appendChild(newDiv);
 ### Stretch Goals
 1. Randomize the height and width of the newly created Div so that every so many milliseconds, a different sized firefly appears.
 2. Change the ```left``` and ```top``` properties of the div so that the fireflies appear at the coordinates of your mouse!
-3. Create an array that will take in each div as it appears. Create an if statement that will remove the first div in the array if the length of the array is greater than 10.  
+3. Create an array that will take in each div as it appears. Create an if statement that will remove the first div in the array if the length of the array is greater than 10.
